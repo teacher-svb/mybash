@@ -5,7 +5,7 @@
             "type": "string",
             "enum": [
                 "reset_", "bright_", "dim_", "italic_", "underline_", "blink_", "inverse_", "hidden_", "strike_", "light_",
-                "black", "red", "green", "yellow", "blue", "magenta", "cyan", "white", "default"
+                "black", "red", "green", "yellow", "blue", "magenta", "cyan", "white", "grey", "default"
             ]
         },
         "key": {
