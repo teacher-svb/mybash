@@ -11,7 +11,6 @@
   "display": {
     "separator": " ",
     "bar": {"border": true, "width": 10}
-
   },
   "general": {
 
@@ -20,7 +19,7 @@
   "modules": [
     {
       "type": "custom", // HardwareStart,
-      "keyColor": "black",
+      "keyColor": "dim_",
       "key": "┌──────────────────── Hardware ─────────────────────┐",
       "format": ""
     },
@@ -49,36 +48,41 @@
     {
       "type": "custom", // InformationEnd
       "key": "└────────────────────────────────────────────────────┘",
-      "keyColor": "black",
+      "keyColor": "dim_",
       "format": ""
       
     },
     {
       "type": "custom", // SoftwareStart
       "key": "┌──────────────────── Software ──────────────────────┐",
-      "keyColor": "black",
+      "keyColor": "dim_",
       "format": ""
     },
     {
       "type": "os",
+      "keyColor": "blue",
       "key": "\ue70f OS :" // Just get your distro's logo off nerdfonts.com
     },
     {
       "type": "title",
-      "color": {"host": "red"},
+      "color": {"host": "red", "user": "blue"},
+      "keyColor": "blue",
       "key": "│ ├\uf007 :"
     },
     {
       "type": "kernel",
       "key": "│ ├ :",
+      "keyColor": "blue",
       "format": "{1} {2}"
     },
     {
       "type": "de",
+      "keyColor": "blue",
       "key": "│ ├ :"
     },
     {
       "type": "packages",
+      "keyColor": "blue",
       "key": "└ └󰏖 :"
     },
     {
@@ -101,13 +105,13 @@
     {
       "type": "custom", // InformationEnd
       "key": "└────────────────────────────────────────────────────┘",
-      "keyColor": "black",
+      "keyColor": "dim_",
       "format": ""
     },
     {
       "type": "custom", // SoftwareStart
       "key": "┌───────────────────── Uptime ───────────────────────┐",
-      "keyColor": "black",
+      "keyColor": "dim_",
       "format": ""
     },
     {
@@ -118,7 +122,7 @@
     {
       "type": "custom", // InformationEnd
       "key": "└────────────────────────────────────────────────────┘",
-      "keyColor": "black",
+      "keyColor": "dim_",
       "format": ""
     },
     // {
