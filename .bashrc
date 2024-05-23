@@ -52,24 +52,24 @@ if [[ $iatest -gt 0 ]]; then bind "set completion-ignore-case on"; fi
 if [[ $iatest -gt 0 ]]; then bind "set show-all-if-ambiguous On"; fi
 
 # Set the default editor
-export EDITOR=nvim
-export VISUAL=nvim
-alias pico='edit'
-alias spico='sedit'
-alias nano='edit'
-alias snano='sedit'
-alias vim='nvim'
+# export EDITOR=nvim
+# export VISUAL=nvim
+# alias pico='edit'
+# alias spico='sedit'
+# alias nano='edit'
+# alias snano='sedit'
+# alias vim='nvim'
 
 # Replace batcat with cat on Fedora as batcat is not available as a RPM in any form
-if command -v lsb_release >/dev/null; then
-	DISTRIBUTION=$(lsb_release -si)
+# if command -v lsb_release >/dev/null; then
+# 	DISTRIBUTION=$(lsb_release -si)
 
-	if [ "$DISTRIBUTION" = "Fedora" ] || [ "$DISTRIBUTION" = "Arch" ]; then
-		alias cat='bat'
-	else
-		alias cat='batcat'
-	fi
-fi
+# 	if [ "$DISTRIBUTION" = "Fedora" ] || [ "$DISTRIBUTION" = "Arch" ]; then
+# 		alias cat='bat'
+# 	else
+# 		alias cat='batcat'
+# 	fi
+# fi
 
 # To have colors for ls and all grep commands such as grep, egrep and zgrep
 export CLICOLOR=1
