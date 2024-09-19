@@ -20,3 +20,9 @@ wget -P ~/.local/share/fonts https://github.com/ryanoasis/nerd-fonts/releases/do
 && rm JetBrainsMono.zip \
 && fc-cache -fv
 ```
+
+dockur
+
+https://www.youtube.com/watch?v=xhGYobuG508
+
+https://github.com/dockur/windows
