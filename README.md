@@ -3,7 +3,7 @@
 ```bash
 mkdir -p ~/build
 cd ~/build
-git clone https://github.com/christitustech/mybash
+git clone https://github.com/teacher-svb/mybash
 ```
 
 ```bash
