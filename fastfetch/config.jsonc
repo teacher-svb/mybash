@@ -20,7 +20,7 @@
     {
       "type": "custom", // HardwareStart,
       "keyColor": "dim_",
-      "key": "┌──────────────────── Hardware ─────────────────────┐",
+      "key": "┌──────────────────── Hardware ──────────────────────┐",
       "format": ""
     },
     {
